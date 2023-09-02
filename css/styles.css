@@ -1,0 +1,177 @@
+:root {
+  --c-brand: #4d5ae5;
+  --color-basic: #2e2f42;
+  --color-hover: #404bbf;
+  --color-basic-light: #ffffff;
+  --color-text: #434455;
+  --color-background: #fff;
+  --color-footer: #f4f4fd;
+}
+
+/* Global styles */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--color-background);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Header */
+
+.logo {
+  color: var(--c-brand);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-part {
+  color: var(--color-basic);
+}
+
+.nav-link {
+  color: var(--color-basic);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.nav-link:hover {
+  color: var(--color-hover);
+}
+
+.address {
+  color: var(--color-text);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.address:hover {
+  color: var(--color-hover);
+}
+
+/* Hero section */
+.hero-section {
+  background-color: var(--color-basic);
+}
+
+.hero-title {
+  color: var(--color-basic-light);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.hero-button {
+  background-color: var(--c-brand);
+  color: var(--color-basic-light);
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  padding: 16px 32px;
+  font-family: 'Roboto', sans-serif;
+}
+.hero-button:hover {
+  background-color: var(--color-hover);
+  color: var(--color-basic-light);
+}
+
+/* Advantages section */
+
+.advantage-title {
+  color: var(--color-basic);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2px;
+  letter-spacing: 0.4px;
+}
+
+.advantage-text {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+/* Team section */
+
+.title-section {
+  color: var(--color-basic);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.team-title {
+  color: var(--color-basic);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.team-position {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* Portfolio section */
+
+.portfolio-title {
+  color: var(--color-basic);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.portfolio-text {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.footer-text {
+  background-color: var(--color-basic);
+  color: var(--color-footer);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
