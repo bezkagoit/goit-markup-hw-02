@@ -1,11 +1,11 @@
 :root {
   --c-brand: #4d5ae5;
   --color-basic: #2e2f42;
+  --color-basic-light: #f4f4fd;
   --color-hover: #404bbf;
-  --color-basic-light: #ffffff;
+  --color-light: #ffffff;
   --color-text: #434455;
   --color-background: #fff;
-  --color-footer: #f4f4fd;
 }
 
 /* Global styles */
@@ -13,6 +13,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   background: var(--color-background);
+
+  color: var(--color-text);
 }
 
 a {
@@ -43,8 +45,8 @@ ul {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -57,7 +59,7 @@ ul {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .nav-link:hover {
@@ -70,7 +72,8 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .address:hover {
@@ -83,7 +86,7 @@ ul {
 }
 
 .hero-title {
-  color: var(--color-basic-light);
+  color: var(--color-light);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -93,16 +96,19 @@ ul {
 
 .hero-button {
   background-color: var(--c-brand);
-  color: var(--color-basic-light);
+  color: var(--color-light);
   cursor: pointer;
   border: 0;
-  border-radius: 4px;
-  padding: 16px 32px;
   font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
+
 .hero-button:hover {
   background-color: var(--color-hover);
-  color: var(--color-basic-light);
+  color: var(--color-light);
 }
 
 /* Advantages section */
@@ -111,8 +117,8 @@ ul {
   color: var(--color-basic);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2px;
-  letter-spacing: 0.4px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .advantage-text {
@@ -120,17 +126,19 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 /* Team section */
 
 .title-section {
+  background-color: var(--color-basic-light);
   color: var(--color-basic);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .team-title {
@@ -156,7 +164,7 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-text {
@@ -164,14 +172,14 @@ ul {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .footer-text {
   background-color: var(--color-basic);
-  color: var(--color-footer);
+  color: var(--color-basic-light);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
