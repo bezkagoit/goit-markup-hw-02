@@ -26,12 +26,9 @@ ul {
 }
 
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -66,17 +63,25 @@ ul {
   color: var(--color-hover);
 }
 
-.address {
+.nav-link:focus {
+  color: var(--color-hover);
+}
+
+.address-text {
   color: var(--color-text);
   font-family: Roboto;
+  font-style: normal;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
-.address:hover {
+.address-text:hover {
+  color: var(--color-hover);
+}
+
+.address-text:focus {
   color: var(--color-hover);
 }
 
@@ -107,6 +112,11 @@ ul {
 }
 
 .hero-button:hover {
+  background-color: var(--color-hover);
+  color: var(--color-light);
+}
+
+.hero-button:focus {
   background-color: var(--color-hover);
   color: var(--color-light);
 }
@@ -142,6 +152,7 @@ ul {
 }
 
 .team-title {
+  background-color: var(--color-background);
   color: var(--color-basic);
   font-size: 20px;
   font-weight: 500;
@@ -150,6 +161,7 @@ ul {
 }
 
 .team-position {
+  background-color: var(--color-background);
   color: var(--color-text);
   font-size: 16px;
   font-weight: 400;
@@ -159,6 +171,16 @@ ul {
 
 /* Portfolio section */
 
+.portfolio-section {
+  background-color: var(--color-background);
+  color: var(--color-basic);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
 .portfolio-title {
   color: var(--color-basic);
   font-size: 20px;
@@ -175,11 +197,26 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.logo-footer {
+  background-color: var(--color-basic);
+  color: var(--c-brand);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-part-down {
+  color: var(--color-basic-light);
+}
+
 .footer-text {
   background-color: var(--color-basic);
   color: var(--color-basic-light);
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
