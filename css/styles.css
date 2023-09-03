@@ -170,6 +170,7 @@ ul {
 }
 
 .team-position {
+  color: var(--color-text);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
